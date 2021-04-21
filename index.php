@@ -17,8 +17,11 @@
   <?php
   if (isset($_GET['vista'])) {
     switch ($_GET['vista']) {
+      case 'login':
+        include_once 'view/login.php';
+        break;
       case 'registro':
-        include_once 'view/form.php';
+        include_once 'view/registro.php';
         break;
       default:
         include_once 'view/error404.php';
