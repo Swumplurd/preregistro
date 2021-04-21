@@ -1,20 +1,24 @@
 <?php
   require_once 'app/config.php';
 ?>
-<!doctype html>
-<html lang="en">
 
+<!doctype html>
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <?php
     require_once 'app/dependencias.php';
   ?>
-  <title>Home</title>
+  <title><?=NOMBRE_SERVIDOR; if (isset($_GET['vista'])){echo ' | ' . $_GET['vista'];}?></title>
 </head>
-
 <body>
-  <?php
+
+<?php
+  require_once 'view/includes/header.php'
+?>
+
+<?php
   if (isset($_GET['vista'])) {
     switch ($_GET['vista']) {
       case 'login':
@@ -30,8 +34,12 @@
   } else {
     include_once 'view/home.php';
   }
-  ?>
+?>
+
+<?php
+  require_once 'view/includes/footer.php'
+?>
+
 </div>
 </body>
-
 </html>
