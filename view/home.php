@@ -12,22 +12,22 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item">
-            <a href="reinscripciones"><img src="http://itmilpaalta2.net/img/banners/reins2021.jpg" class="w-100 rounded" alt=""></a>
+            <a href="reinscripciones"><img src="<?=SERVIDOR?>raw/img/slider/reins2021.webp" class="w-100 rounded" alt=""></a>
           </div>
           <div class="carousel-item active">
-            <a href="edificio"><img src="http://itmilpaalta2.net/img/banners/build.jpg" class="w-100 rounded" alt=""></a>
+            <a href="edificio"><img src="<?=SERVIDOR?>raw/img/slider/build.webp" class="w-100 rounded" alt=""></a>
           </div>
           <div class="carousel-item">
-            <img loading="lazy" src="http://itmilpaalta2.net/img/banners/guerrero.jpg" class="w-100 rounded" alt="">
+            <img loading="lazy" src="<?=SERVIDOR?>raw/img/slider/guerrero.webp" class="w-100 rounded" alt="">
           </div>
           <div class="carousel-item">
-            <img loading="lazy" src="http://itmilpaalta2.net/img/banners/covid.jpg" class="w-100 rounded" alt="">
+            <img loading="lazy" src="<?=SERVIDOR?>raw/img/slider/covid.webp" class="w-100 rounded" alt="">
           </div>
           <div class="carousel-item">
-            <img loading="lazy" src="http://itmilpaalta2.net/img/banners/acoso.jpg" class="w-100 rounded" alt="">
+            <img loading="lazy" src="<?=SERVIDOR?>raw/img/slider/acoso.webp" class="w-100 rounded" alt="">
           </div>
           <div class="carousel-item">
-            <img loading="lazy" src="http://itmilpaalta2.net/img/banners/plastico.jpg" class="w-100 rounded" alt="">
+            <img loading="lazy" src="<?=SERVIDOR?>raw/img/slider/plastico.webp" class="w-100 rounded" alt="">
           </div>
         </div>
         <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
