@@ -27,12 +27,15 @@
       case 'registro':
         include_once 'view/registro.php';
         break;
+      case 'home':
+        include_once 'view/home.php';
+        break;
       default:
         include_once 'view/error404.php';
         break;
     }
   } else {
-    include_once 'view/home.php';
+    header('location: home');
   }
 ?>
 

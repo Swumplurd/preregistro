@@ -16,7 +16,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link <?php if ($_GET['vista'] == '') {echo 'active';} ?>" href="/">Home</a>
+            <a class="nav-item nav-link <?php if ($_GET['vista'] == 'home') {echo 'active';} ?>" href="home">Home</a>
             <a class="nav-item nav-link <?php if ($_GET['vista'] == 'login') {echo 'active';} ?>" href="login">Login</a>
             <a class="nav-item nav-link <?php if ($_GET['vista'] == 'registro') {echo 'active';} ?>" href="registro">Registro</a>
           </div>
