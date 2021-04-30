@@ -12,7 +12,7 @@
   ?>
   <title><?=NOMBRE_SERVIDOR; if (isset($_GET['vista'])){echo ' | ' . $_GET['vista'];}?></title>
 </head>
-<body>
+<body ondrop="return false" ondragstart='return false'>
 
 <?php
   require_once 'view/includes/header.php'
